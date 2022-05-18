@@ -1,0 +1,232 @@
+
+<!-- saved from url=(0065)http://www.gujaratuniversity.org.in/result_e/result/result_up.asp -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><title> Gujarat University </title>
+<script type="text/javascript" language="javascript">
+
+function ChgText()
+{
+   var MyElement = document.getElementById("txtSeatNo");
+   MyElement.value = "Changed Text";
+   return true;
+}
+
+function b0()
+{
+   var MyElement = document.getElementById("txtSeatNo");
+   MyElement.value = MyElement.value + "0";
+   return true;
+}
+
+function b1()
+{
+   var MyElement = document.getElementById("txtSeatNo");
+   MyElement.value = MyElement.value + "1";
+
+   return true;
+}
+
+
+function b2()
+{
+   var MyElement = document.getElementById("txtSeatNo");
+   MyElement.value = MyElement.value + "2";
+   return true;
+}
+
+
+function b3()
+{
+   var MyElement = document.getElementById("txtSeatNo");
+   MyElement.value = MyElement.value + "3";
+   return true;
+}
+
+
+function b4()
+{
+   var MyElement = document.getElementById("txtSeatNo");
+   MyElement.value = MyElement.value + "4";
+   return true;
+}
+
+
+function b5()
+{
+   var MyElement = document.getElementById("txtSeatNo");
+   MyElement.value = MyElement.value + "5";
+   return true;
+}
+
+
+function b6()
+{
+   var MyElement = document.getElementById("txtSeatNo");
+   MyElement.value = MyElement.value + "6";
+   return true;
+}
+
+
+function b7()
+{
+   var MyElement = document.getElementById("txtSeatNo");
+   MyElement.value = MyElement.value + "7";
+   return true;
+}
+
+
+function b8()
+{
+   var MyElement = document.getElementById("txtSeatNo");
+   MyElement.value = MyElement.value + "8";
+   return true;
+}
+
+
+
+function b9()
+{
+   var MyElement = document.getElementById("txtSeatNo");
+   MyElement.value = MyElement.value + "9";
+   return true;
+}
+
+function bclear()
+{
+   var MyElement = document.getElementById("txtSeatNo");
+   MyElement.value = "";
+   return true;
+}
+
+
+function GetPageName()
+{
+	var strSeat,strExam,return_val;
+	strExam=frmResult.lstExam.value;
+	strExam=parseInt(strExam);
+	strSeat=frmResult.txtSeatNo.value;
+	strSeat=parseInt(strSeat);
+	return_val=false;
+	if(strSeat > 0 && strSeat < 100000)
+	{	
+		frmResult.txtSeatNo.value=strSeat;
+		frmResult.action="ex" + strExam + "/exam_chk.asp";
+		return_val=true;
+	}
+	else
+	{
+		
+		alert("Enter a valid Seat Number");
+		return_val=false;
+	}
+	return return_val;
+}
+
+function go_to_stats_page()
+{
+	strExam=frmResult.lstExam.value;
+	strExam=parseInt(strExam);
+	frmResult.action="ex" + strExam + "/stats.asp";
+	frmResult.submit()
+}
+
+</script>
+
+</head><body bgcolor="#ccccff">
+<b><center><font size="4">
+GUJARAT UNIVERSITY - ONLINE RESULTS
+</font> </center></b>
+<hr color="RED">
+<form name="frmResult" method="POST" onsubmit="return GetPageName()" target="DownPage" ;="" action="http://www.gujaratuniversity.org.in/result_e/result/ex32/exam_chk.asp">
+<center>
+
+<table border="0"><tbody><tr>
+<td align="RIGHT"><b><font color="BLUE">Select Exam Name: </font></b></td>
+<td><select name="lstExam">
+
+<option value="68" selected=""> D.L.P. </option><option value="84"> B.B.A.-Semester-4 </option><option value="67"> D.T.P. </option><option value="22"> B.Sc.-Semester-2 </option><option value="42"> M. A.-Semester-2 </option><option value="32"> B.Com.-Semester-2 </option><option value="14"> B.A.-Semester-4 </option><option value="12"> B.A.-Semester-2 </option><option value="20"> B.Ed.-Semester-4 </option><option value="19"> B.Ed.-Semester-3 </option><option value="18"> B.Ed.-Semester-2 </option><option value="24"> B.Sc.-Semester-4 </option><option value="44"> M. A.-Semester-4 </option><option value="54"> M. Com.-Semester-4 </option><option value="52"> M. Com.-Semester-2 </option><option value="92"> B.C.A.-Semester-2 </option><option value="59"> LL. M.-Semester-4 </option><option value="57"> LL. M.-Semester-2 </option><option value="56"> LL. M.-Semester-1 </option><option value="58"> LL. M.-Semester-3 </option><option value="17"> B.Ed.-Semester-1 </option><option value="34"> B.Com.-Semester-4 </option><option value="82"> B.B.A.-Semester-2 </option><option value="47"> M. Sc.-Semester-2 </option><option value="66"> LL.B.-Semester-6 </option><option value="49"> M. Sc.-Semester-4 </option><option value="26"> B.Sc.-Semester-6 </option><option value="94"> B.C.A.-Semester-4 </option><option value="16"> B.A.-Semester-6 </option><option value="36"> B.Com.-Semester-6 </option><option value="31"> B.Com.-Semester-1 </option><option value="15"> B.A.-Semester-5 </option><option value="96"> B.C.A.-Semester-6 </option><option value="25"> B.Sc.-Semester-5 </option><option value="35"> B.Com.-Semester-5 </option><option value="51"> M. Com.-Semester-1 </option><option value="64"> LL.B.-Semester-4 </option><option value="62"> LL.B.-Semester-2 </option><option value="43"> M. A.-Semester-3 </option><option value="41"> M. A.-Semester-1 </option><option value="23"> B.Sc.-Semester-3 </option><option value="21"> B.Sc.-Semester-1 </option><option value="53"> M. Com.-Semester-3 </option><option value="33"> B.Com.-Semester-3 </option><option value="86"> B.B.A.-Semester-6 </option><option value="13"> B.A.-Semester-3 </option><option value="11"> B.A.-Semester-1 </option><option value="48"> M. Sc.-Semester-3 </option><option value="46"> M. Sc.-Semester-1 </option><option value="83"> B.B.A.-Semester-3 </option><option value="81"> B.B.A.-Semester-1 </option><option value="95"> B.C.A.-Semester-5 </option><option value="93"> B.C.A.-Semester-3 </option><option value="91"> B.C.A.-Semester-1 </option><option value="85"> B.B.A.-Semester-5 </option><option value="65"> LL.B.-Semester-5 </option><option value="63"> LL.B.-Semester-3 </option><option value="61"> LL.B.-Semester-1 </option>
+
+</select></td>
+<td>
+<input type="button" value="Click for result statistics" name="cmdStats" onclick="go_to_stats_page()">
+</td>
+</tr>
+<tr>
+<td align="RIGHT"><b><font color="BLUE">Enter Seat No.: </font></b></td>
+<td><input type="TEXT" name="txtSeatNo" size="20"><input type="SUBMIT" name="cmdSearch" value="Search"></td>
+</tr></tbody></table>
+<br>
+    <table bordercolor="#FFFFFF" align="center">
+<tbody><tr>
+<td width="40" align="center">
+	<input name="1" type="button" value="  1  " onclick="b1();">
+</td>
+<td width="40" align="center">
+	<input name="2" type="button" value="  2  " onclick="b2();">
+</td>
+<td width="40" align="center">
+	<input name="3" type="button" value="  3  " onclick="b3();">
+</td>
+<td width="40" align="center">
+	<input name="4" type="button" value="  4  " onclick="b4();">
+</td>
+<td width="40" align="center">
+	<input name="5" type="button" value="  5  " onclick="b5();">
+</td>
+<td width="40" align="center">
+	<input name="6" type="button" value="  6  " onclick="b6();">
+</td>
+<td width="40" align="center">
+	<input name="7" type="button" value="  7  " onclick="b7();">
+</td>
+<td width="40" align="center">
+	<input name="8" type="button" value="  8  " onclick="b8();">
+</td>
+<td width="40" align="center">
+	<input name="9" type="button" value="  9  " onclick="b9();">
+</td>
+<td width="40" align="center">
+	<input name="0" type="button" value="  0  " onclick="b0();">
+</td>
+<td width="40" align="center">
+	<input name="clear" type="button" value="CLEAR" onclick="bclear();">
+</td>
+</tr>
+</tbody></table>
+
+  
+</center>
+<!------------------------>
+
+<!--  Remove these comments for SMS registration
+<a href="http://www.gujaratuniversity.org.in/SMS_RESULT/input1.asp" target = "new window">Click Here to Register for getting Exam Results through SMS</a>
+<br>
+-->
+
+
+<!--  Apply for Reassessment Online  30-MAY-2017  -->
+<a href="http://result.gujaratuniversity.ac.in/" target="new window" align="center">Click Here to Apply for Reassessment</a>
+<br>
+<br>
+
+<!----       20-Mar-2017
+<A href="http://www.gujaratuniversity.org.in/web/NWD/Exam/OtherResult.asp" target="DownPage" >
+Click Here for Other Results
+</A>
+-->
+
+
+<a href="http://www.gujaratuniversity.ac.in/web/custom/student/oher-results" target="DownPage">
+Click Here for Other Results
+</a>
+
+
+</form>
+
+
+
+
+
+
+
+
+</body></html>

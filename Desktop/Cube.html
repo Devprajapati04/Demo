@@ -1,0 +1,29 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td><input type="text" name="t1" id="t1">
+        </tr>
+        <tr>
+            <td>
+                <button type="submit" value="submit" onclick="getcube()">Click</button>
+            </td>
+        </tr>
+    </table>
+    <p id="p1"></p>
+</body>
+<script type="text/javascript">
+    function getcube() {
+        var a, cube;
+        a = parseInt(document.getElementById("t1").value);
+        cube = a * a * a;
+        document.getElementById("p1").innerHTML = "Cube Of " + a + "is:-" + cube;
+    }
+</script>
+
+</html>
